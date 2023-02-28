@@ -5,7 +5,7 @@
  * print_to_98 - prints all integers from n to 98
  * @n: starting integer
  */
-void add(int n)
+void print_to_98(int n)
 {
 	int i;
 
