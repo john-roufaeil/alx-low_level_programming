@@ -13,7 +13,7 @@ int main(void)
 	a = 1;
 	b = 1;
 	printf("1");
-	for (i = 1; i <= 98; i++)
+	for (i = 1; i < 97; i++)
 	{
 		printf(", ");
 		c = a + b;
