@@ -17,7 +17,6 @@ void print_times_table(int n)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
 				res = op0 * op1;
 				if (res <= 9)
 				{
