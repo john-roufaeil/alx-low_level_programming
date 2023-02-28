@@ -9,7 +9,7 @@
 int main(void)
 {
 	long a, b, c, sum;
-	
+
 	sum = 0;
 	a = 0;
 	b = 1;
