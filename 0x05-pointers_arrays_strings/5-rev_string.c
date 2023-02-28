@@ -13,11 +13,10 @@ void rev_string(char *s)
 	{
 		a++;
 	}
-	while (b++ < a--)
+	while (b < a)
 	{
 		temp = s[b];
-		s[b] = s[a];
-		s[a] = temp;
-		_putchar(s[count]);
+		s[b++] = s[a];
+		s[a--] = temp;
 	}
 }
