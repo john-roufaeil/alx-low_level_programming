@@ -28,6 +28,6 @@ int _atoi(char *s)
 	if (found == 0)
 		return (0);
 	if (minus % 2 == 1)
-		return ((-1) * result);
-	return (result);
+		return (result);
+	return (result * (-1);
 }
