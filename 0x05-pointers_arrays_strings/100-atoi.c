@@ -29,5 +29,5 @@ int _atoi(char *s)
 		return (0);
 	if (minus % 2 == 1)
 		return (result);
-	return (result * (-1);
+	return (result * (-1));
 }
