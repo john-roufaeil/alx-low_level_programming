@@ -12,7 +12,9 @@ void puts_half(char *str)
 	{
 		i++;
 	}
-	half = i / 2 + 1;
+	half = i / 2;
+	if (i % 2 == 1)
+		half++;
 	max = i;
 	for (i = half; i < max; i++)
 	{
